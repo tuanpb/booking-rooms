@@ -71,7 +71,7 @@ function App() {
           <AppBar position="fixed">
             <Toolbar>
               <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                65 MUSIC BOX
+                68 MUSIC BOX
               </Typography>
 
               {isMobile ? (

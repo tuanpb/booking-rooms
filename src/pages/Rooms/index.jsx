@@ -486,7 +486,7 @@ const Rooms = ({ rooms: initialRooms }) => {
                         </Box>
                     </Grid>
                 </Grid>
-                <Box sx={{ mt: 1.5, display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+                {/* <Box sx={{ mt: 1.5, display: 'flex', flexWrap: 'wrap', gap: 2 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
                         <InfoIcon fontSize="small" color="info" />
                         <Typography variant="body2">Xem thông tin</Typography>
@@ -495,7 +495,7 @@ const Rooms = ({ rooms: initialRooms }) => {
                         <CancelIcon fontSize="small" color="error" />
                         <Typography variant="body2">Hủy đặt phòng</Typography>
                     </Box>
-                </Box>
+                </Box> */}
             </Paper>
         );
     };
@@ -512,7 +512,7 @@ const Rooms = ({ rooms: initialRooms }) => {
                     gap: 2
                 }}>
                     <Typography variant="h5" fontWeight="bold">Quản lý đặt phòng
-                        <Typography variant="body1">
+                        {/* <Typography variant="body1">
                             <strong>Số điện thoại:</strong>
                             <TextField
                                 margin="dense"
@@ -526,7 +526,7 @@ const Rooms = ({ rooms: initialRooms }) => {
                                 disabled={bookingLoading}
                             />
                             <Button variant="contained">Đăng nhập nhanh</Button>
-                        </Typography>
+                        </Typography> */}
                         {loading && (
                             <CircularProgress
                                 size={20}
